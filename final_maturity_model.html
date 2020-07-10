@@ -1,0 +1,200 @@
+<link rel="stylesheet" href="https://use.typekit.net/yvb1hcg.css">
+<style type="text/css">
+  /** {
+    background-color: #E0E8F0;
+  }*/
+   table {
+    border-collapse: collapse;
+    font-family: sans-serif;
+    width: 100%;
+    /*font-size: 8pt;*/
+  }
+  table, th, td {
+    /*border: 1px solid black;*/
+  }
+  .title {
+    font-family: bell-centennial-std-bold-lis,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #51A2D9;
+    color: white;
+  }
+  .lvlNumber {
+    font-family: bell-centennial-std-bold-lis,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    background-color: #B9E5F3;
+    font-size: 15pt;
+    /*color: white;*/
+  }
+  .lvlName {
+    font-family: bell-centennial-std-sub-capt,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    background-color: #B9E5F3;
+    /*color: white;*/
+    /*border-bottom: 1px solid #8A140E;*/
+  }
+  .category {
+    background-color: #51A2D9;
+    color: white;
+  }
+  .category>div {
+    font-family: bell-centennial-std-bold-lis,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    transform: rotate(270deg);
+  }
+  .domain {
+    font-family: bell-centennial-std-sub-capt,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    background-color: #B9E5F3;
+    /*color: white;*/
+    border-bottom: 1px solid black;
+  }
+  .content {
+    font-family: bell-centennial-std-address,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 8pt;
+    width: 17.4%;
+    text-align: justify;
+    text-justify: inter-word;
+    padding: 0 5px;
+    border-bottom: 1px solid black;
+  }
+  .splitCell {
+    font-family: bell-centennial-std-sub-capt,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #B9E5F3;
+
+    width: 13%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  .splitCell>div {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+  }
+  .bottom {
+    position: absolute;
+    bottom: 1px;
+    left: 30%;
+  }
+  .top {
+    position: absolute;
+    top: 15px;
+    right: 1px;
+  }
+  .line {
+    width: 100%;
+    height: 100%;
+    border-bottom: 1px solid #8A140E;
+    transform: translateY(-25px) translateX(8px) rotate(13deg);
+    position: absolute;
+    z-index: 50;
+  }
+
+</style>
+<table class="table">
+  <tr>
+    <th class="title" colspan="7">Maturity model for IoT implementation in hospitals</th>
+  </tr>
+  <tr>
+    <td class="splitCell" colspan="2" rowspan="2">
+      <div>
+        <span class="bottom">Domain</span>
+        <span class="top">Level</span>
+        <div class="line"></div>
+      </div>
+    </td>
+    <td class="lvlNumber">1</td>
+    <td class="lvlNumber">2</td>
+    <td class="lvlNumber">3</td>
+    <td class="lvlNumber">4</td>
+    <td class="lvlNumber">5</td>
+  </tr>
+  <tr>
+    <td class="lvlName">Initial</td>
+    <td class="lvlName">Performed</td>
+    <td class="lvlName">Managed</td>
+    <td class="lvlName">Optimized</td>
+    <td class="lvlName">Beyond</td>
+  </tr>
+  <tr>
+    <td class="category" rowspan="3"><div>Why?</div></td>
+    <td class="domain">Value creation</td>
+    <td class="content">Internet of things is considered an immature, novelty technology, not mature enough to provide aid or added value in healthcare in a reliable way.</td>
+    <td class="content">The Internet of Things integration is characterized as ad hoc, and occasionally even chaotic. Few processes are defined, and success depends on individual effort. There is no "wrong" data collected as the standard for what is "right" is not defined on an enterprise level.</td>
+    <td class="content">Value is realized on a small scale and does not support strategic objectives and activities. Value is loosely defined at the enterprise level and achieved inconsistently by some local / departmental use of data.</td>
+    <td class="content">Value is clearly defined by the hospital and medical units recognize their roles in value creation. Common organization-wide IoT-data and definitions are consistently used.</td>
+    <td class="content">The usage of IoT as a tool to obtain information and knowledge about different aspects within the hospital, as well as to provide better comfort and care to patients, is embraced. The technology has reached commodity status and is often iterated upon to further aid medical care in their daily activities.</td>
+  </tr>
+  <tr>
+    <td class="domain">Privacy &amp; Security</td>
+    <td class="content">Some security standards exist, though they are not comprehensive, not updated on a routinely, not easily accessible and not broadly ratified.</td>
+    <td class="content">The required security standards exist and are comprehensive, however the resources to keep the standards routinely up-to date are lacking. The integration that is planned to happen is being verified by the IT security department on security risks and requires approval before deployment. The IoT equipment can demonstrate compliance with international standards, such as ISO 22301 for business continuity management, ISO/IEC 27001 for information security management, and ISO/IEC 27018 for data privacy in the cloud.</td>
+    <td class="content">Security standards are documented, published, and easily accessible, though compliance to standards are now universally monitored, and risks associated with non-compliance are comprehensively understood. Measurement and analysis processes are not automated and suffer from challenges to data integrity.</td>
+    <td class="content">Security standards are documented, published, and easily accessible. Ongoing compliance with standards is measured. Software running on the medical and IoT devices are regularly being verified to ensure the integrity of the data being sent.</td>
+    <td class="content">Security standards are documented, published, and easily accessible. Ongoing compliance with standards is measured via automated processes that are integrated with problem resolution and automated deployment systems. Penalties exist for non- compliance within hospital standards and remediation is executed in a predictable manner.</td>
+  </tr>
+  <tr>
+    <td class="domain">Compliance &amp; Policy</td>
+    <td class="content">The IoT regulatory, legal and rights related challenges are not being explored and unknown to the hospital. It would therefore be risky to engage in IoT activity.</td>
+    <td class="content">The regulatory limits in terms of IoT are explored and taken into account for the project. Policies are defined and enforced at the departmental level.</td>
+    <td class="content">There is a person or team within the legal department actively maintaining knowledge about IoT and data-specific legislation. The legal body verifies additional IoT projects (about to be) implemented in the hospital. There are some common criteria and policies around IoT and its data classification. Some formalization of board approved policies is in place, but enforcement may be inconsistent or lacking.</td>
+    <td class="content">The hospital has adopted a collaborative approach to IoT policy discussion. Since IoT is a challenging area for policymakers, bringing together the expertise on the topic with the development of policies, accelerates the evolution of internal policies. Formal enterprise policies are adopted, implemented, and driven down through the organization. Policy compliance audits and feedback loops are in place.</td>
+    <td class="content">Policies are proactively designed, developed and adopted in advance of compliance or regulatory mandates. To mitigate the rapid pace of IoT technology surpassing regulatory frameworks, the hospital promotes internet and IoT with legislative bodies. The organization is able to proactively address emerging trends related to Internet of Things as the global business environment.</td>
+  </tr>
+  <tr>
+    <td class="category" rowspan="2"><div>What?</div></td>
+    <td class="domain">Connectivity</td>
+    <td class="content">The architecture currently in place is insufficient to accommodate for a pilot IoT implementation.</td>
+    <td class="content">The initial investment or budget for upgrading infrastructure is made or taken into account using real-life simulations: Cost of design, equipment, installation and maintenance is taken into consideration. Tracking and monitoring infrastructure is limited to the scope of the business case. The existing eco-system is taken into consideration when applying a business case.</td>
+    <td class="content">Connection architecture is defined, basic infrastructure is in place to ensure a consistent, reliable method to track assets and personnel within the hospital. There is careful consideration for what assets are worth tracking and the investment is made to cover that. The hospital is willing to make investments to improve IoT infrastructure and aid the medical units with their IoT projects.</td>
+    <td class="content">There is an extensive infrastructure installed all-around the hospital, making future IoT implementation cost relatively inexpensive. </td>
+    <td class="content">The hospital makes recurrent investments in the IT and IoT infrastructure allowing to lower the project budgets for new IoT projects.</td>
+  </tr>
+  <tr>
+    <td class="domain">Data governance</td>
+    <td class="content">It is understood that data will be an important aspect of IoT and will be a driver for key decisions in the value-chain. Data is currently not actively extracted and/or captured from the (medical) equipment and the ability to do so is not a deciding factor in choosing equipment.</td>
+    <td class="content">There are trials or experiments capturing data from sensors or medical equipment. A standardized storage structure is not a focus in this level. The manner of handling the sensitive data is taken into account and meets all regulatory standards. The organization has identified processes where data is created or acquired. There is low-level awareness of the concept of IoT data.</td>
+    <td class="content">The application is in a pilot phase, capturing data within a narrow hospital unit. Procedures to ensure data quality to the core unit are being established and applied to the whole unit. Some data is consistently defined within hospital units but there is no assessment of consistent or coherent use across hospital units or in managing or conforming data in new applications. Data management processes are mature but may not address key data quality, data enrichment, or data aggregation / consolidation opportunities. Organization has defined approval processes for data creation, acquisition and destruction. Critical data quality considerations are known. Technical metadata providing traceability and transparency is mature.</td>
+    <td class="content">Organization has routine approach to data creation and acquisition. Data quality is recognized as an organizational issue and is being addressed though planned and coordinated efforts. Data definitions exist. There are enterprise standards for managing data quality supported by common definitions and processes addressing root causes and ensuring that remediation addresses immediate concerns and prohibits future contamination. There may be inconsistencies in the quality of business, technical or operational definitions but content is granular enough to be meaningful. Data valuation tends to be classified generically, e.g. high, medium, and low, rather discretely quantified. Organization has defined processes for migration, reuse, transformation, aggregation and consolidation. Metrics for data quality exist and are actively monitored. Information is consistently defined across the enterprise, resulting in improved effectiveness and efficiency.</td>
+    <td class="content">Robust data classifications and definitions exist and are uniformly understood and used across the enterprise. Classification schemes focuses on business value of data and can be used to quantify the expected impact of an incident. Metadata is consistently used for reporting, new product or application development. Data quality issues are routinely identified and remediated. The use of high volumes of high-quality data allows the hospital to improve according to well defined patient segments as well as forecasting models that consider improved recovery rate as well as cost approaches. Output of data classification is also integrated into controls framework, incidents response, benchmarking, and patient processes. Hospital understands data as a corporate asset and seeks opportunities to enhance the quality and use of data for operational purposes. Data quality issues are anticipated and addressed proactively.</td>
+  </tr>
+  <tr>
+    <td class="category" rowspan="3"><div>How?</div></td>
+    <td class="domain">Organizational culture</td>
+    <td class="content">The basis for sharing and exploiting the value of IoT is hampered by a lack of strategic vision and coordination. New techniques and features in terms of IoT are overlooked by the organization and not maintained.</td>
+    <td class="content">Collaboration is happening in a limited scope, required for some projects to succeed. New IoT features are being implemented ad-hoc by upgrading medical equipment or software packages who use it. There are some people within the organization that are aware of new techniques out of interest. There is an IoT/data resposible being assigned within the unit the projects takes place in.</td>
+    <td class="content">Collaboration across organizational units is encouraged and co-creation is fostered. There is limited awareness about the IoT evolutions throughout the organization. New IoT features are implemented when the added value is highlighted within a project. Wihtin the hospital management level, there is a resposible for IoT, having expertise on decision-making level.</td>
+    <td class="content">Management is transparent with their employees about IoT implementation and thus changes to the processes. Employees feel heard by management and ideas and concerns are taken seriously. New techniques that seem interesting to the organization are being documented for future exploration or implementation. A full, collaborative IoT team is in place synchronizing between legal, management, IT and the inididual medical units.</td>
+    <td class="content">Risk taking and pursuing change is encouraged and rewarded to empower those who adapt. The organization is able to proactively address emerging trends related to Internet of Things as the global business environment and associated risks continue to evolve. There is an active culture of experimentation with new IoT features in a test environment. Once deemed successfully tested, the results are considered by the management. Continuous improvement is enabled by quantitative feedback from the process and from piloting innovative ideas and technologies.</td>
+  </tr>
+  <tr>
+    <td class="domain">Monitoring</td>
+    <td class="content">There is no monitoring happening in terms of IoT.</td>
+    <td class="content">Medical units are being monitored and compared internally against each other in terms of IoT implementation and progress.</td>
+    <td class="content">The hospital has a unified way to measure its IoT quality up against other hospitals around the world, a process named benchmarking. The hospital performance is lower compared to public hospitals within the country or in neighbouring countries.</td>
+    <td class="content">The hospital is on equal level with hospitals within the country or compared to neighbouring countries when measured using a unified methodology.</td>
+    <td class="content">The hospital is a significant leader compared to comparable public hospitals within the country or beyond. It sets example in terms of IoT integration and has novelty applications implemented.</td>
+  </tr>
+  <tr>
+    <td class="domain">Governance</td>
+    <td class="content">There are no organization-level standards for identifying IoT assets or establishing clear accountability for those assets. There is no idea on how IoT usage would need to be reported about, therefore there are no standard reporting processes. Management's ability to understand the data consistently across the organization is limited.</td>
+    <td class="content">Clear accountability for information assets is implemented on a limited (unit or project) basis. Accountability is viewed as and assigned to IT departments. Formal patient notification processes exist and are followed, for all Data Breaches, according to GDPR guidelines. High-level reporting processes exist; however, these do not provide assurance or improvements in consistent reporting quality. Strategic analysis is limited or limited in effectiveness as a result.</td>
+    <td class="content">The concept of IoT/Data Stewardship is emerging, at a localized or unit level. The role of Business Information Steward in managing information content, and the relationship with IT roles as custodians of medical information is understood. Roles within the unit areas and IT are being labelled "IoT/Data Stewards", the focus of the roles is "IoT data". There is a clear view on how to retrieve (audit) logs and what information they contain. Regulatory compliance drives such efforts, so reports are more informational than strategic. The need for consistency in approach and Executive level strategies and roles are emerging. Business Executives are engaged in developing and enabling a more strategic approach to Internet of Things.</td>
+    <td class="content">IoT Stewards are establishing IM programs across the organization, and organizational structures are in place to ensure consistency in practice, compliance with Data Governance standards, and ongoing investment in IoT. A business model for accountability of data, associated standards and guidelines is in place and endorsed at the Board level. Comprehensive, conformed reporting processes and monitoring is integrated into organizational standards. Output of reporting is understood and leveraged for strategic purposes and provides an accurate and comprehensive view of enterprise performance. Reporting also supports security standards, data classification, control assessment, incident response, and reporting processes.</td>
+    <td class="content">Stewardship roles, structures, and processes have enabled the organization to optimize the value of its information assets by ensuring that information is aligned with business strategy, enabling a more planned and coordinated approach and increased sharing of assets vs. unnecessary duplication of effort. Comprehensive, conformed reporting processes and monitoring is integrated into organizational standards. Output of reporting is understood and leveraged for strategic purposes and provides an accurate and comprehensive view of enterprise performance.</td>
+  </tr>
+</table>
